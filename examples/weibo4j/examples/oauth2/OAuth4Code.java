@@ -11,8 +11,8 @@ import weibo4j.util.BareBonesBrowserLaunch;
 public class OAuth4Code {
 	public static void main(String [] args) throws WeiboException, IOException{
 		Oauth oauth = new Oauth();
-		BareBonesBrowserLaunch.openURL(oauth.authorize("code",args[0],args[1]));
-		System.out.println(oauth.authorize("code",args[0],args[1]));
+		BareBonesBrowserLaunch.openURL(oauth.authorize("code","",""));
+		System.out.println(oauth.authorize("code","",""));
 		System.out.print("Hit enter when it's done.[Enter]:");
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String code = br.readLine();

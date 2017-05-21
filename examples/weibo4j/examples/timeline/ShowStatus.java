@@ -8,8 +8,8 @@ import weibo4j.model.WeiboException;
 public class ShowStatus {
 
 	public static void main(String[] args) {
-		String access_token = args[0];
-		String id = args[1];
+		String access_token = "2.007EB_ODbVATNEea9b7d49970sNnxs";
+		String id = "1713926427";
 		Timeline tm = new Timeline();
 		tm.client.setToken(access_token);
 		try {
