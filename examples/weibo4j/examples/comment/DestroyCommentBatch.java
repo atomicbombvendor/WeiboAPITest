@@ -5,7 +5,7 @@ import weibo4j.examples.oauth2.Log;
 import weibo4j.model.WeiboException;
 import weibo4j.org.json.JSONArray;
 
-public class DestroyCommentBatcn {
+public class DestroyCommentBatch {
 
 	public static void main(String[] args) {
 		String access_token = args[0];

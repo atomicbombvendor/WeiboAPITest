@@ -190,8 +190,11 @@ public class Comment extends WeiboResponse implements java.io.Serializable {
 
 	@Override
 	public String toString() {
-		return "Comment [createdAt=" + createdAt + ", id=" + id + ", mid="
-				+ mid + ", idstr=" + idstr + ", text=" + text + ", source="
+//		return "Comment [createdAt=" + createdAt + ", id=" + id + ", mid="
+//				+ mid + ", idstr=" + idstr + ", text=" + text + ", source="
+//				+ source + ", replycomment=" + replycomment + ", user=" + user
+//				+ ", status=" + status +"]";
+		return "Comment [createdAt=" + createdAt + ", idstr=" + idstr + ", text=" + text + ", source="
 				+ source + ", replycomment=" + replycomment + ", user=" + user
 				+ ", status=" + status +"]";
 	}

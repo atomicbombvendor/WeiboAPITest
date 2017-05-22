@@ -36,6 +36,7 @@ public class Paging implements java.io.Serializable {
    
 	private int page = -1;              //页码。注意：最多返回200条分页内容。
     private int count = -1;             //指定每页返回的记录条数。
+    //指的应该是 commentList 的 startIndex和endIndex
     private long sinceId = -1;          //若指定此参数，则只返回ID比since_id大（即比since_id发表时间晚的）的微博消息。
     private long maxId = -1;            //若指定此参数，则返回ID小于或等于max_id的微博消息
 
